@@ -1,7 +1,7 @@
 class LandingsController < ApplicationController
-  before_action :nuevo_mensaje, only: :Z
-  #before_action :before_antes, excep: :Z#
-  #before_action :before_antes, [:Z, :Y]#
+  before_action :nuevo_mensaje, only: :z
+  #before_action :before_antes, excep: :z#
+  #before_action :before_antes, [:z, :y]#
   def x
   end
 
