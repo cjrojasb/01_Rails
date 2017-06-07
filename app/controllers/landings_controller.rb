@@ -3,6 +3,7 @@ class LandingsController < ApplicationController
   #before_action :before_antes, excep: :z#
   #before_action :before_antes, [:z, :y]#
   def x
+    render layout: "layout2" #Render, solo afectara a la página X#
   end
 
   def y
@@ -10,9 +11,13 @@ class LandingsController < ApplicationController
 
   def z
     @val = []
-    20.times do |i|
+    5.times do |i|
       @val << "nombre#{i+1}"
     end
+  end
+
+  def discounts
+    
   end
 
 end
